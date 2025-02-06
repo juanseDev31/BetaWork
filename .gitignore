@@ -1,0 +1,21 @@
+# created by virtualenv automatically
+venv/
+.venv/
+
+db.sqlite3
+*.sqlite3
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+staticfiles/
+media/
+
+.env
+
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'layouts/base.html'%}
+    {% load static %}
+    {% block content %}
+    <h1>{{title}}</h1>
+    <img src="{% static 'image.png' %}" alt="" width="100" >
+    <p>Welcome to this project! This is an early version of a web application designed to help you create projects and manage tasks efficiently. Feel free to explore its features and streamline your workflow. Your feedback is valuable as we continue to improve and develop new functionalities.</p>
+    {% endblock %}
+</body>
+</html>

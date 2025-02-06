@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% extends 'layouts/base.html'%}
+    {% block content %}
+    <h1>About</h1>
+    <p>
+    I developed a basic web application using Django that allows users to create projects and manage tasks within those projects. The application provides an intuitive interface where users can easily add, view, and organize their projects and tasks.
+    <br>
+   
+        
+    <h2>Features:</h2>
+        
+    Project Management: Users can create new projects, each with a unique name and description.
+    <br> 
+    Task Management: Within each project, users can add tasks, assign a status, and provide a description.
+    <br>   
+    User-Friendly Interface: The application is designed to be intuitive, ensuring that users can navigate and manage their projects efficiently.
+    <br>  
+     Data Persistence: All projects and tasks are stored in a database using Django’s ORM, ensuring reliable data management.
+        
+    <h2>Technologies Used:</h2>
+        
+     Django: As the backend framework to handle requests and database operations.
+     <br>  
+     SQLite: For storing project and task data.
+     <br>  
+     HTML/CSS: To create a simple and clean user interface.
+
+    <p>Website created by {{username}}</p>
+    {% endblock %}
+</body>
+</html>
